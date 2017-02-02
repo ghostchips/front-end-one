@@ -1,2 +1,47 @@
 /* Default html reset file */
 @import "reset.css";
+
+html {
+  background-color: black;
+}
+
+/* Container spanning all area before breakout area container*/
+.above-breakout-area {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+/* --------- IMAGES ----------- */
+
+.large-image, .carousel /* carousel temporary styled as large image */
+ {
+  background-image: url(../Assets/900x600.png);
+  background-position: center, center;
+  width: 100%;
+  height: 20em;
+  margin-bottom: .5em;
+}
+
+.three-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* the 2 square images part of the group of three*/
+.three-images .square-image {
+  background-image: url(../Assets/900x600.png);
+  background-position: center, center;
+  width: 50%;
+  height: 20em; /* square height approximation */
+}
+
+.three-images #left-square {
+  margin-left: .05em;
+}
+
+.three-images #right-square {
+  margin-right: .05em;
+}
