@@ -1,7 +1,7 @@
 
 /* --------- IMAGES ----------- */
 
-.large-image, .carousel { /* carousel temporary styled as large image */
+.large-image {
   background-image: url(../Assets/900x600.png); /* placeholder image from placehold.it website */
   background-position: center, center;
   width: 100%;

@@ -1,8 +1,10 @@
 
 @import "reset.css"; /* Default html reset file */
+@import "carousel.css";
 @import "project-title.css";
 @import "images.css";
 @import "blurb.css";
+@import "media-query-small.css";
 
 html {
   background-color: black;

@@ -1,0 +1,29 @@
+
+/* --------- CAROUSEL --------- */
+
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-image: url(../Assets/900x600.png);
+  background-position: center, center;
+  width: 100%;
+  height: 20em;
+  margin-bottom: .5em;
+  transition: background 0.5s linear; /* this will make the carousel image change smooth */
+}
+.carousel p {
+  color: grey;
+  font-size: 5em;
+}
+
+/* Arrow hover events */
+
+.left-arrow:hover, .right-arrow:hover {
+  cursor: pointer;
+}
+
+.left-arrow:hover p, .right-arrow:hover p {
+  color: black;
+}
