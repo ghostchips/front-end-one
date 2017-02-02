@@ -1,0 +1,18 @@
+
+/* --------- BLURBS --------- */
+
+.large-blurb {
+  text-align: center;
+}
+
+.large-blurb h3 {
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.large-blurb p {
+  color: grey;
+  margin: 1em 3em 3em 2em;
+}

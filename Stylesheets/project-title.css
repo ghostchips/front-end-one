@@ -1,0 +1,53 @@
+
+/* -------- PROJECT TITLE --------- */
+/* Displayed in order from top to bottom of container */
+
+.project-title { /* container */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.project-title h1 {
+  font-size: 4em;
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: .7rem;
+  text-transform: uppercase
+}
+
+.project-title h5 {
+  color: grey;
+  margin-bottom: 3em;
+  text-transform: uppercase
+}
+
+.project-title span {
+font-family: 'Tangerine', cursive;
+font-size: 2em;
+padding: .2em;
+text-transform: lowercase;
+}
+
+.project-title p {
+  color: grey;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 2em;
+}
+
+.visit-button {
+  margin-right: 38%;
+  margin-left: 38%;
+  margin-bottom: 3em;
+  padding: 1em;
+  border: solid white .2em;
+}
+.visit-button:hover { /* button cursor change on hover */
+  cursor: pointer;
+}
+
+#visit-site {
+  margin: 0; /* here to correct p margin from main text */
+  text-transform: uppercase
+}

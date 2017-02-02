@@ -1,0 +1,36 @@
+
+/* --------- IMAGES ----------- */
+
+.large-image, .carousel { /* carousel temporary styled as large image */
+  background-image: url(../Assets/900x600.png); /* placeholder image from placehold.it website */
+  background-position: center, center;
+  width: 100%;
+  height: 20em;
+  margin-bottom: .5em;
+}
+
+.three-images { /* Container for the group of 3 images */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* the 2 square images part of the group of three*/
+.three-images .square-image {
+  background-image: url(../Assets/900x600.png);
+  background-position: center, center;
+  width: 49.5%;
+  height: 20em; /* square height approximation */
+}
+
+/* left and eight squares separated to add margin on left and right side separately */
+#left-square {
+  margin-right: .5%;
+}
+
+#right-square {
+  margin-left: .5%;
+}
+.plus {
+  /* plus div at the corner of evey image */
+  /* did not include do to time constraint */
+}
