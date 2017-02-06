@@ -1,7 +1,7 @@
 
 /* --------- MODAL -----------*/
 
-.modal { /* modal container */
+.modal-body { /* modal container */
   display: none;
   background-color: white;
   height: 40%;
@@ -9,9 +9,12 @@
   box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+  padding: .1em;
 }
-.modal, .modal-text { /* aling modal and modal text to fixed-center postion*/
+
+.modal-body, .modal-text { /* aling modal and modal text to fixed-center postion*/
   position: fixed;
+  z-index: 2;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -28,8 +31,13 @@
 .modal-close p {
   font-family: 'PT Mono', monospace;
   font-size: 3em;
-  color: rgba(0, 0, 0, 0.5);
-  padding: .1em .4em .5em .5em;
+  color: rgba(0, 0, 0, 0.2);
+  padding-right: .2em;
+}
+
+.modal-close p:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .black-out {
