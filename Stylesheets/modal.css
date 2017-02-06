@@ -2,6 +2,7 @@
 /* --------- MODAL -----------*/
 
 .modal { /* modal container */
+  display: none;
   background-color: white;
   height: 40%;
   width: 60%;
@@ -21,11 +22,11 @@
 }
 
 .modal-close {
-  position: relative;
   float: right;
 }
 
 .modal-close p {
+  font-family: 'PT Mono', monospace;
   font-size: 3em;
   color: rgba(0, 0, 0, 0.5);
   padding: .1em .4em .5em .5em;
