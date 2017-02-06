@@ -1,0 +1,42 @@
+
+/* --------- MODAL -----------*/
+
+.modal { /* modal container */
+  background-color: white;
+  height: 40%;
+  width: 60%;
+  box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+}
+.modal, .modal-text { /* aling modal and modal text to fixed-center postion*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.modal-close {
+  position: relative;
+  float: right;
+}
+
+.modal-close p {
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.5);
+  padding: .1em .4em .5em .5em;
+}
+
+.black-out {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}

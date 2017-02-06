@@ -9,6 +9,10 @@
   margin-bottom: .5em;
 }
 
+.large-image p {
+  display: none;
+}
+
 .three-images { /* Container for the group of 3 images */
   display: flex;
   flex-wrap: wrap;

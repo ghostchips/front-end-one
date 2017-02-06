@@ -1,4 +1,6 @@
 
+// ---- CAROUSEL LOGIC ---------->>
+
 // array of image URLs where images are cointained
 const images = [
   'Assets/900x600.png', 'Assets/900x600aqua.png', 'Assets/900x600blue.png', 'Assets/900x600purple.png', 'Assets/900x600red.png'
@@ -30,3 +32,7 @@ $('.right-arrow').click(function() {
   currentImage = images[imageNumber]
   $('.carousel').css("background-image", `url(${currentImage})`);
 });
+
+// ----------->> END
+
+// ---- MODAL LOGIC -------->>
