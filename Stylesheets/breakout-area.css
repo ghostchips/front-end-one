@@ -1,0 +1,45 @@
+
+/* -------- BREAKOUT AREA --------- */
+
+.breakout-area {
+  width: 100%;
+  height: 33.75em;
+  background-color: white;
+  padding-left: 12.2%;
+  padding-right: 2.1%;
+  padding-top: 6.250em;
+  overflow: hidden;
+}
+
+.breakout-box {
+  float: right;
+  background-color: rgb(230, 230, 230);
+  width: 62%;
+  height: 27.813em;
+}
+
+.breakout-text {
+  width: 32%;
+  padding-top: 5.250em;
+}
+
+.line {
+  margin-bottom: 1.625em;
+}
+
+.breakout-area h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: .7em;
+}
+
+.line {
+  width: 3.5em;
+  background-color: rgb(209, 209, 209);
+  height: 1px;
+}
+
+.breakout-text p {
+  font-size: 1.2em;
+  color: rgb(158, 158, 158);
+}

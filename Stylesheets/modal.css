@@ -1,18 +1,15 @@
 
 /* --------- MODAL -----------*/
 
-.modal-body { /* modal container */
+.modal { /* modal container */
   display: none;
-  background-color: rgba(255, 255, 255, 0.95);
-  height: 40%;
-  width: 60%;
-  box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.75);
+  background-color: rgb(255, 255, 255);
+  height: 27.688em;
+  width: 75.6%;
   padding: .1em;
 }
 
-.modal-body, .modal-text { /* aling modal and modal text to fixed-center postion*/
+.modal, .modal-text { /* aling modal and modal text to fixed-center postion*/
   position: fixed;
   z-index: 2;
   top: 50%;
@@ -24,20 +21,19 @@
     -o-transform: translate(-50%,-50%);
 }
 
-.modal-close {
-  float: right;
+.modal-text {
+  width: 80%;
+  color: rgb(182, 182, 182);
+  font-size: 1.2em;
 }
 
-.modal-close p {
-  font-family: 'PT Mono', monospace;
-  font-size: 3em;
-  color: rgba(0, 0, 0, 0.2);
-  padding-right: .2em;
+.modal .plus {
+  color: rgb(26, 26, 26);
+  border: solid rgb(26, 26, 26) 2px;
 }
 
-.modal-close p:hover {
-  cursor: pointer;
-  color: rgba(0, 0, 0, 0.4);
+#close {
+  transform: rotate(45deg);
 }
 
 .black-out {

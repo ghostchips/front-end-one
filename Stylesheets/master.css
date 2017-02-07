@@ -6,6 +6,7 @@
 @import "images.css";
 @import "blurb.css";
 @import "modal.css";
+@import "breakout-area.css";
 @import "media-query-small.css";
 
 html {
@@ -20,7 +21,7 @@ html {
   flex-direction: column;
   margin-left: 12.2%;
   margin-right: 12.2%;
-  margin-bottom: 5em;
+  margin-bottom: 5.563em;
   margin-top: 2.25em;
 }
 

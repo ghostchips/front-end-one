@@ -52,16 +52,16 @@ $('.image-modal').click(function(event) {
   $('.modal-text').html(`<p>${targetBlurb}</p>`);
   // reveal modal and darkened background
   $('.black-out').show();
-  $('.modal-body').show();
+  $('.modal').show();
 });
 
 // hide modal by clicking darkened background
 $('.black-out').click(function() {
-  $('.modal-body').hide();
+  $('.modal').hide();
   $('.black-out').hide();
 });
 // hide modal by clicking the 'x'
-$('.modal-close').click(function() {
-  $('.modal-body').hide();
+$('#close').click(function() {
+  $('.modal').hide();
   $('.black-out').hide();
 });
