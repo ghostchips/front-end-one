@@ -1,0 +1,22 @@
+
+/* --------- TOP MENU ---------*/
+
+.top-menu {
+  height: 7em;
+  padding-bottom: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-icon {
+  text-transform: uppercase;
+  background-color: rgb(46,46,46);
+  padding: .8em 1.2em .7em 1.2em;
+  color: rgb(97,97,97);
+}
+
+.menu-name {
+  color: white;
+  text-transform: uppercase;
+}

@@ -1,5 +1,6 @@
 
 @import "reset.css"; /* Default html reset file */
+@import "top-menu.css";
 @import "carousel.css";
 @import "project-title.css";
 @import "images.css";
@@ -20,6 +21,7 @@ html {
   margin-left: 12.2%;
   margin-right: 12.2%;
   margin-bottom: 5em;
+  margin-top: 2.25em;
 }
 
 .top-menu { /* placeholder width, will change once added logo and title on left and right */
