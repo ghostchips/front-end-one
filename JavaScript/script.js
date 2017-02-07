@@ -3,7 +3,7 @@
 
 // array of image URLs where images are cointained
 const images = [
-  'Assets/900x600.png', 'Assets/900x600aqua.png', 'Assets/900x600blue.png', 'Assets/900x600purple.png', 'Assets/900x600red.png'
+  'Assets/960x470.png', 'Assets/960x470orange.png', 'Assets/960x470red.png'
 ];
 
 // number that will change in order to change the current image

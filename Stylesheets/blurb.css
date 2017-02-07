@@ -3,16 +3,19 @@
 
 .large-blurb {
   text-align: center;
+  padding-left: 17.8%;
+  padding-right: 17.8%;
+  padding-top: 2.688em;
+  height: 14.5em;
 }
 
 .large-blurb h3 {
   color: white;
   font-size: 2em;
   text-transform: uppercase;
-  margin-top: 1em;
 }
 
 .large-blurb p {
-  color: grey;
-  margin: 1em 3em 3em 2em;
+  color: rgb(158, 158, 158);
+  margin-top: 1em;
 }

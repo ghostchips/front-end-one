@@ -3,15 +3,16 @@
 /* Displayed in order from top to bottom of container */
 
 .project-title { /* container */
+  height: 31.750em;
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 4.563em;
 }
 
 .project-title h1 {
   font-size: 4em;
   color: white;
-  margin-top: 3rem;
   margin-bottom: .7rem;
   text-transform: uppercase
 }
@@ -30,9 +31,8 @@ text-transform: lowercase;
 }
 
 .project-title p {
+  font-size: 1.5em;
   color: grey;
-  margin-left: 3em;
-  margin-right: 3em;
   margin-bottom: 2em;
 }
 

@@ -8,17 +8,17 @@
 @import "media-query-small.css";
 
 html {
-  background-color: black;
+  background-color: rgb(26,26,26);
 }
  body { /* Default font */
-   font-family: 'Roboto', sans-serif;
- }
+  font-family: 'Nunito Sans', sans-serif;
+}
 
 .above-breakout-area { /* Container spanning all area before breakout area container*/
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 12.2%;
+  margin-right: 12.2%;
   margin-bottom: 5em;
 }
 
