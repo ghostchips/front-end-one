@@ -25,6 +25,22 @@ html {
   margin-top: 2.25em;
 }
 
-.top-menu { /* placeholder width, will change once added logo and title on left and right */
+.top-menu {
   height: 3em;
+}
+
+.below-breakout-area {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12.2%;
+  margin-right: 12.2%;
+  padding-top: 4.5em;
+  text-align: center;
+}
+
+.below-breakout-area h1 {
+  font-size: 4em;
+  color: white;
+  margin-bottom: .95em;
+  text-transform: uppercase
 }

@@ -19,20 +19,21 @@
 
 .project-title h5 {
   color: grey;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
+  font-size: 1em;
   text-transform: uppercase
 }
 
 .project-title span {
 font-family: 'Tangerine', cursive;
-font-size: 2em;
+font-size: 1.5em;
 padding: .2em;
 text-transform: lowercase;
 }
 
 .project-title p {
   font-size: 1.5em;
-  color: grey;
+  color: rgb(97,97,97);
   margin-bottom: 2em;
 }
 
@@ -43,11 +44,15 @@ text-transform: lowercase;
   padding: 1em;
   border: solid white .2em;
 }
-.visit-button:hover { /* button cursor change on hover */
+
+.visit-button:hover {
   cursor: pointer;
 }
 
 #visit-site {
-  margin: 0; /* here to correct p margin from main text */
-  text-transform: uppercase
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1em;
+
 }

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 1em 2.2em;
   background-image: url(../Assets/960x470.png);
   background-position: center, center;
   width: 100%;
@@ -18,17 +18,38 @@
   display: none;
 }
 
-.carousel p {
-  color: grey;
-  font-size: 5em;
+.carousel {
+  color: white;
+  font-family: 'Voltaire', sans-serif;
 }
 
-/* Arrow hover events */
+.carousel p {
+  font-size: 3.5em;
+}
+
+.carousel-nav {
+  align-self: flex-end;
+  color: rgb(46,46,46);
+  font-size: .95em;
+}
+
+.nav-points {
+  width: 3.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* --- Carousel hover events --- */
 
 .left-arrow:hover, .right-arrow:hover {
   cursor: pointer;
 }
 
 .left-arrow:hover p, .right-arrow:hover p {
-  color: black;
+  color: rgb(46,46,46);
+}
+
+#first:hover, #second:hover, #third:hover {
+  color: rgb(97,97,97);
+  cursor: pointer;
 }
