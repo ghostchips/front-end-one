@@ -38,6 +38,9 @@
   display: flex;
   justify-content: space-between;
 }
+#first { /* the first nav point is hilighted*/
+  color: rgb(97,97,97);
+}
 
 /* --- Carousel hover events --- */
 

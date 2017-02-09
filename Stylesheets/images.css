@@ -46,3 +46,6 @@
 .plus:hover {
   cursor: pointer;
 }
+.image-modal:hover { /* change curser to indicate modal will appear onclick*/
+  cursor: pointer;
+}
