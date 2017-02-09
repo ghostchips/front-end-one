@@ -1,9 +1,9 @@
 
  (*- This is the continuation of a pervious project -* )
 
- (*- After completing the below, I looked at the original PSD file and adjusted the site dimentions by carefully checking the px cout of both height and width of divs and spacing, and converted them into percentages for width and ems for height. -*)
+ (*- After completing the below, I looked at the original PSD file and adjusted the site dimensions by carefully checking the px count of both height and width of divs and spacing, and converted them into percentages for width and ems for height. -*)
 
- (*- I followed by adding a modal featature on large images without bulbs, taking into consideration scalibility, knowing that more would be added in the future. I also added more functionality to the carousel, including a working navigation. -*)
+ (*- I followed by adding a modal feature on large images without bulbs, taking into consideration scalability, knowing that more would be added in the future. I also added more functionality to the carousel, including a working navigation. -*)
 
 Created using
 
